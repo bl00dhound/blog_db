@@ -262,30 +262,6 @@ comment_likes ref users ( user_id -&gt; id )</title>
 <path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 576,512L 552,512Q 544,512 544,504L 544,344Q 544,336 536,336L 216,336Q 208,336 208,328L 208,320' ><title>Fk fk_comment_likes_users_1
 comment_likes ref users ( user_id -&gt; id )</title></path>
 <text x='544' y='507' transform='rotate(0 544,507)' class='relName' style='fill:#748EA7'>user_id</text>
-<!-- == Fk 'comments_fk_comments_articles_1' == -->
-<path id='comments_fk_comments_articles_1'  onmouseover="hghl(['comments_fk_comments_articles_1','public.comments.article_id','public.articles.id'])" onmouseout="uhghl(['comments_fk_comments_articles_1','public.comments.article_id','public.articles.id'])" transform='translate(8,0)' class='scene' d='M 528,608L 952,608Q 960,608 960,600L 960,336' >
-	<title>Fk fk_comments_articles_1
-comments ref articles ( article_id -&gt; id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 528,608L 952,608Q 960,608 960,600L 960,336' ><title>Fk fk_comments_articles_1
-comments ref articles ( article_id -&gt; id )</title></path>
-<text x='537' y='603' transform='rotate(0 537,603)' class='relName' style='fill:#748EA7'>article_id</text>
-<!-- == Fk 'comments_fk_comments_comments_1' == -->
-<path id='comments_fk_comments_comments_1'  onmouseover="hghl(['comments_fk_comments_comments_1','public.comments.parent_id','public.comments.id'])" onmouseout="uhghl(['comments_fk_comments_comments_1','public.comments.parent_id','public.comments.id'])" transform='translate(8,0)' class='scene' d='M 528,672L 536,672Q 544,672 544,680L 544,696Q 544,704 536,704L 520,704Q 512,704 512,696L 512,688' >
-	<title>Fk fk_comments_comments_1
-comments ref comments ( parent_id -&gt; id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 528,672L 536,672Q 544,672 544,680L 544,696Q 544,704 536,704L 520,704Q 512,704 512,696L 512,688' ><title>Fk fk_comments_comments_1
-comments ref comments ( parent_id -&gt; id )</title></path>
-<text x='537' y='667' transform='rotate(0 537,667)' class='relName' style='fill:#748EA7'>parent_id</text>
-<!-- == Fk 'comments_fk_comments_users_1' == -->
-<path id='comments_fk_comments_users_1'  onmouseover="hghl(['comments_fk_comments_users_1','public.comments.author_id','public.users.id'])" onmouseout="uhghl(['comments_fk_comments_users_1','public.comments.author_id','public.users.id'])" transform='translate(8,0)' class='scene' d='M 336,512L 264,512Q 256,512 256,504L 256,296Q 256,288 248,288L 224,288' >
-	<title>Fk fk_comments_users_1
-comments ref users ( author_id -&gt; id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 336,512L 264,512Q 256,512 256,504L 256,296Q 256,288 248,288L 224,288' ><title>Fk fk_comments_users_1
-comments ref users ( author_id -&gt; id )</title></path>
-<text x='292' y='507' transform='rotate(0 292,507)' class='relName' style='fill:#748EA7'>author_id</text>
 <!-- == Fk 'logs_fk_logs_articles_1' == -->
 <path id='logs_fk_logs_articles_1'  onmouseover="hghl(['logs_fk_logs_articles_1','public.logs.article_id','public.articles.id'])" onmouseout="uhghl(['logs_fk_logs_articles_1','public.logs.article_id','public.articles.id'])" transform='translate(8,0)' class='scene' d='M 528,208L 816,208' >
 	<title>Fk fk_logs_articles_1
@@ -507,7 +483,7 @@ articles ref article_categories ( category_id -&gt; id )</title></path>
 	<title>Fk fk_articles_article_statuses_1
 articles ref article_statuses ( article_status_id -&gt; id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 816,256L 768,256' ><title>Fk fk_articles_article_statuses_1
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 816,256L 768,256' ><title>Fk fk_articles_article_statuses_1
 articles ref article_statuses ( article_status_id -&gt; id )</title></path>
 <text x='732' y='251' transform='rotate(0 732,251)' class='relName' style='fill:#748EA7'>article_status_id</text>
 <!-- == Fk 'articles_fk_articles_languages_1' == -->
@@ -515,7 +491,7 @@ articles ref article_statuses ( article_status_id -&gt; id )</title></path>
 	<title>Fk fk_articles_languages_1
 articles ref languages ( language_id -&gt; id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1008,288L 1032,288Q 1040,288 1040,296L 1040,304' ><title>Fk fk_articles_languages_1
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 1008,288L 1032,288Q 1040,288 1040,296L 1040,304' ><title>Fk fk_articles_languages_1
 articles ref languages ( language_id -&gt; id )</title></path>
 <text x='1017' y='283' transform='rotate(0 1017,283)' class='relName' style='fill:#748EA7'>language_id</text>
 <!-- == Fk 'articles_fk_articles_users_1' == -->
@@ -526,6 +502,30 @@ articles ref users ( author_id -&gt; id )</title>
 <path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 816,112L 760,112Q 752,112 752,104L 752,72Q 752,64 744,64L 224,64' ><title>Fk fk_articles_users_1
 articles ref users ( author_id -&gt; id )</title></path>
 <text x='772' y='107' transform='rotate(0 772,107)' class='relName' style='fill:#748EA7'>author_id</text>
+<!-- == Fk 'comments_fk_comments_articles_1' == -->
+<path id='comments_fk_comments_articles_1'  onmouseover="hghl(['comments_fk_comments_articles_1','public.comments.article_id','public.articles.id'])" onmouseout="uhghl(['comments_fk_comments_articles_1','public.comments.article_id','public.articles.id'])" transform='translate(8,0)' class='scene' d='M 528,608L 952,608Q 960,608 960,600L 960,336' >
+	<title>Fk fk_comments_articles_1
+comments ref articles ( article_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 528,608L 952,608Q 960,608 960,600L 960,336' ><title>Fk fk_comments_articles_1
+comments ref articles ( article_id -&gt; id )</title></path>
+<text x='537' y='603' transform='rotate(0 537,603)' class='relName' style='fill:#748EA7'>article_id</text>
+<!-- == Fk 'comments_fk_comments_comments_1' == -->
+<path id='comments_fk_comments_comments_1'  onmouseover="hghl(['comments_fk_comments_comments_1','public.comments.parent_id','public.comments.id'])" onmouseout="uhghl(['comments_fk_comments_comments_1','public.comments.parent_id','public.comments.id'])" transform='translate(8,0)' class='scene' d='M 528,672L 536,672Q 544,672 544,680L 544,696Q 544,704 536,704L 520,704Q 512,704 512,696L 512,688' >
+	<title>Fk fk_comments_comments_1
+comments ref comments ( parent_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 528,672L 536,672Q 544,672 544,680L 544,696Q 544,704 536,704L 520,704Q 512,704 512,696L 512,688' ><title>Fk fk_comments_comments_1
+comments ref comments ( parent_id -&gt; id )</title></path>
+<text x='537' y='667' transform='rotate(0 537,667)' class='relName' style='fill:#748EA7'>parent_id</text>
+<!-- == Fk 'comments_fk_comments_users_1' == -->
+<path id='comments_fk_comments_users_1'  onmouseover="hghl(['comments_fk_comments_users_1','public.comments.author_id','public.users.id'])" onmouseout="uhghl(['comments_fk_comments_users_1','public.comments.author_id','public.users.id'])" transform='translate(8,0)' class='scene' d='M 336,512L 264,512Q 256,512 256,504L 256,296Q 256,288 248,288L 224,288' >
+	<title>Fk fk_comments_users_1
+comments ref users ( author_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 336,512L 264,512Q 256,512 256,504L 256,296Q 256,288 248,288L 224,288' ><title>Fk fk_comments_users_1
+comments ref users ( author_id -&gt; id )</title></path>
+<text x='292' y='507' transform='rotate(0 292,507)' class='relName' style='fill:#748EA7'>author_id</text>
 <!-- == Table 'article_categories' == -->
 <rect class='entity' style='stroke:#1E498F' x='800' y='424' width='144' height='80' />
 <rect class='entity' x='800' y='424' width='144' height='28' style='fill:#224070'/>
@@ -543,50 +543,15 @@ name of category</title></a>
 <rect class='entity' x='592' y='504' width='144' height='28' style='fill:#2F7022'/>
 <a xlink:href='#public.comment_likes'><text x='617' y='524' class='white'>comment_likes</text><title>Table public.comment_likes
 Table for comment likes. User can add (create row) or remove (delete row) only one like.</title></a>
-  <use id='nn' x='594' y='541' xlink:href='#nn'/><use id='unq' x='594' y='540' xlink:href='#unq'><title>Unq comment_likes_user_id_comment_id_unique ( user_id, comment_id ) </title></use><a xlink:href='#public.comment_likes_user_id'><text id='public.comment_likes.user_id' x='611' y='551' onmouseover="hghl(['comment_likes_fk_comment_likes_users_1','public.users.id'])" onmouseout="uhghl(['comment_likes_fk_comment_likes_users_1','public.users.id'])">user_id</text><title>user_id
+  <use id='nn' x='594' y='541' xlink:href='#nn'/><use id='unq' x='594' y='540' xlink:href='#unq'><title>Unq comment_likes_user_id_comment_id_unique ( user_id, comment_id ) comment_likes_user_id_index ( user_id ) </title></use><a xlink:href='#public.comment_likes_user_id'><text id='public.comment_likes.user_id' x='611' y='551' onmouseover="hghl(['comment_likes_fk_comment_likes_users_1','public.users.id'])" onmouseout="uhghl(['comment_likes_fk_comment_likes_users_1','public.users.id'])">user_id</text><title>user_id
 * integer
 reference to user</title></a>
 <text x='720' y='552' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comment_likes.user_id'><use id='fk' x='724' y='540' xlink:href='#fk'/><title>References users ( user_id -&gt; id ) </title></a>
-  <use id='nn' x='594' y='557' xlink:href='#nn'/><use id='unq' x='594' y='556' xlink:href='#unq'><title>Unq comment_likes_user_id_comment_id_unique ( user_id, comment_id ) </title></use><a xlink:href='#public.comment_likes_comment_id'><text id='public.comment_likes.comment_id' x='611' y='567' onmouseover="hghl(['comment_likes_fk_comment_likes_comments_1','public.comments.id'])" onmouseout="uhghl(['comment_likes_fk_comment_likes_comments_1','public.comments.id'])">comment_id</text><title>comment_id
+  <use id='nn' x='594' y='557' xlink:href='#nn'/><use id='unq' x='594' y='556' xlink:href='#unq'><title>Unq comment_likes_user_id_comment_id_unique ( user_id, comment_id ) comment_likes_comment_id_index ( comment_id ) </title></use><a xlink:href='#public.comment_likes_comment_id'><text id='public.comment_likes.comment_id' x='611' y='567' onmouseover="hghl(['comment_likes_fk_comment_likes_comments_1','public.comments.id'])" onmouseout="uhghl(['comment_likes_fk_comment_likes_comments_1','public.comments.id'])">comment_id</text><title>comment_id
 * integer
 regerence to comment</title></a>
 <text x='720' y='568' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comment_likes.comment_id'><use id='fk' x='724' y='556' xlink:href='#fk'/><title>References comments ( comment_id -&gt; id ) </title></a>
 
-<!-- == Table 'comments' == -->
-<rect class='entity' style='stroke:#308F1E' x='352' y='504' width='176' height='176' />
-<rect class='entity' x='352' y='504' width='176' height='28' style='fill:#2F7022'/>
-<a xlink:href='#public.comments'><text x='406' y='524' class='white'>comments</text><title>Table public.comments
-Comment entity. Can be relative on parent comment (needed for creating recursive tree of comments with answers).</title></a>
-  <use id='nn' x='354' y='541' xlink:href='#nn'/><use id='pk' x='354' y='540' xlink:href='#pk'><title>Pk comments_pkey ( id ) </title></use><a xlink:href='#public.comments_id'><text id='public.comments.id' x='371' y='551' onmouseover="hghl(['comment_likes_fk_comment_likes_comments_1','public.comment_likes.comment_id','comments_fk_comments_comments_1','public.comments.parent_id','logs_fk_logs_comments_1','public.logs.comment_id'])" onmouseout="uhghl(['comment_likes_fk_comment_likes_comments_1','public.comment_likes.comment_id','comments_fk_comments_comments_1','public.comments.parent_id','logs_fk_logs_comments_1','public.logs.comment_id'])">id</text><title>id
-* serial</title></a>
-<text x='512' y='552' text-anchor='end' class='colType'>serial</text><a xlink:href='#public.comments.id'><use id='ref' x='516' y='540' xlink:href='#ref'/><title>Referred by comment_likes ( comment_id -&gt; id ) 
-Referred by comments ( parent_id -&gt; id ) 
-Referred by logs ( comment_id -&gt; id ) </title></a>
-  <use id='nn' x='354' y='557' xlink:href='#nn'/><a xlink:href='#public.comments_created_at'><text id='public.comments.created_at' x='371' y='567'>created_at</text><title>created_at
-* timestamptz default now()
-date of creating comment</title></a>
-<text x='512' y='568' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='354' y='573' xlink:href='#nn'/><a xlink:href='#public.comments_updated_at'><text id='public.comments.updated_at' x='371' y='583'>updated_at</text><title>updated_at
-* timestamptz default now()
-date of last updating</title></a>
-<text x='512' y='584' text-anchor='end' class='colType'>timestamptz</text>  <a xlink:href='#public.comments_removed_at'><text id='public.comments.removed_at' x='371' y='599'>removed_at</text><title>removed_at
-timestamptz
-date of removing</title></a>
-<text x='512' y='600' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='354' y='605' xlink:href='#nn'/><a xlink:href='#public.comments_author_id'><text id='public.comments.author_id' x='371' y='615' onmouseover="hghl(['comments_fk_comments_users_1','public.users.id'])" onmouseout="uhghl(['comments_fk_comments_users_1','public.users.id'])">author_id</text><title>author_id
-* integer
-user that create comment</title></a>
-<text x='512' y='616' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comments.author_id'><use id='fk' x='516' y='604' xlink:href='#fk'/><title>References users ( author_id -&gt; id ) </title></a>
-  <use id='nn' x='354' y='621' xlink:href='#nn'/><a xlink:href='#public.comments_article_id'><text id='public.comments.article_id' x='371' y='631' onmouseover="hghl(['comments_fk_comments_articles_1','public.articles.id'])" onmouseout="uhghl(['comments_fk_comments_articles_1','public.articles.id'])">article_id</text><title>article_id
-* integer
-reference to article</title></a>
-<text x='512' y='632' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comments.article_id'><use id='fk' x='516' y='620' xlink:href='#fk'/><title>References articles ( article_id -&gt; id ) </title></a>
-  <a xlink:href='#public.comments_parent_id'><text id='public.comments.parent_id' x='371' y='647' onmouseover="hghl(['comments_fk_comments_comments_1','public.comments.id'])" onmouseout="uhghl(['comments_fk_comments_comments_1','public.comments.id'])">parent_id</text><title>parent_id
-integer
-reference to parent comment for recursive showing</title></a>
-<text x='512' y='648' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comments.parent_id'><use id='fk' x='516' y='636' xlink:href='#fk'/><title>References comments ( parent_id -&gt; id ) </title></a>
-  <a xlink:href='#public.comments_content'><text id='public.comments.content' x='371' y='663'>content</text><title>content
-text
-main content of comment</title></a>
-<text x='512' y='664' text-anchor='end' class='colType'>text</text>
 <!-- == Table 'log_actions' == -->
 <rect class='entity' style='stroke:#308F1E' x='592' y='104' width='144' height='80' />
 <rect class='entity' x='592' y='104' width='144' height='28' style='fill:#2F7022'/>
@@ -604,34 +569,34 @@ name of action</title></a>
 <rect class='entity' x='352' y='104' width='176' height='28' style='fill:#2F7022'/>
 <a xlink:href='#public.logs'><text x='424' y='124' class='white'>logs</text><title>Table public.logs
 Realization of simple log system. For controlling some users activities.</title></a>
-  <use id='nn' x='354' y='141' xlink:href='#nn'/><a xlink:href='#public.logs_created_at'><text id='public.logs.created_at' x='371' y='151'>created_at</text><title>created_at
+  <use id='nn' x='354' y='141' xlink:href='#nn'/><use id='idx' x='354' y='140' xlink:href='#idx'><title>logs_created_at_idx ( created_at ) </title></use><a xlink:href='#public.logs_created_at'><text id='public.logs.created_at' x='371' y='151'>created_at</text><title>created_at
 * timestamptz default now()
 date of creation event</title></a>
-<text x='512' y='152' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='354' y='157' xlink:href='#nn'/><a xlink:href='#public.logs_action_id'><text id='public.logs.action_id' x='371' y='167' onmouseover="hghl(['logs_fk_logs_log_actions_1','public.log_actions.id'])" onmouseout="uhghl(['logs_fk_logs_log_actions_1','public.log_actions.id'])">action_id</text><title>action_id
+<text x='512' y='152' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='354' y='157' xlink:href='#nn'/><use id='idx' x='354' y='156' xlink:href='#idx'><title>logs_action_id_idx ( action_id ) </title></use><a xlink:href='#public.logs_action_id'><text id='public.logs.action_id' x='371' y='167' onmouseover="hghl(['logs_fk_logs_log_actions_1','public.log_actions.id'])" onmouseout="uhghl(['logs_fk_logs_log_actions_1','public.log_actions.id'])">action_id</text><title>action_id
 * integer
 reference to log-action</title></a>
 <text x='512' y='168' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.logs.action_id'><use id='fk' x='516' y='156' xlink:href='#fk'/><title>References log_actions ( action_id -&gt; id ) </title></a>
-  <a xlink:href='#public.logs_user_id'><text id='public.logs.user_id' x='371' y='183' onmouseover="hghl(['logs_fk_logs_users_1','public.users.id'])" onmouseout="uhghl(['logs_fk_logs_users_1','public.users.id'])">user_id</text><title>user_id
+  <use id='idx' x='354' y='172' xlink:href='#idx'><title>logs_user_id_idx ( user_id ) </title></use><a xlink:href='#public.logs_user_id'><text id='public.logs.user_id' x='371' y='183' onmouseover="hghl(['logs_fk_logs_users_1','public.users.id'])" onmouseout="uhghl(['logs_fk_logs_users_1','public.users.id'])">user_id</text><title>user_id
 integer
 reference to user that was envolved or that was used in the action</title></a>
 <text x='512' y='184' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.logs.user_id'><use id='fk' x='516' y='172' xlink:href='#fk'/><title>References users ( user_id -&gt; id ) </title></a>
-  <a xlink:href='#public.logs_admin_id'><text id='public.logs.admin_id' x='371' y='199' onmouseover="hghl(['logs_fk_logs_users_2','public.users.id'])" onmouseout="uhghl(['logs_fk_logs_users_2','public.users.id'])">admin_id</text><title>admin_id
+  <use id='idx' x='354' y='188' xlink:href='#idx'><title>logs_admin_id_idx ( admin_id ) </title></use><a xlink:href='#public.logs_admin_id'><text id='public.logs.admin_id' x='371' y='199' onmouseover="hghl(['logs_fk_logs_users_2','public.users.id'])" onmouseout="uhghl(['logs_fk_logs_users_2','public.users.id'])">admin_id</text><title>admin_id
 integer
 reference to user with admin role that create action</title></a>
 <text x='512' y='200' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.logs.admin_id'><use id='fk' x='516' y='188' xlink:href='#fk'/><title>References users ( admin_id -&gt; id ) </title></a>
-  <a xlink:href='#public.logs_thread_id'><text id='public.logs.thread_id' x='371' y='215' onmouseover="hghl(['logs_fk_logs_threads_1','public.threads.id'])" onmouseout="uhghl(['logs_fk_logs_threads_1','public.threads.id'])">thread_id</text><title>thread_id
+  <use id='idx' x='354' y='204' xlink:href='#idx'><title>logs_thread_id_idx ( thread_id ) </title></use><a xlink:href='#public.logs_thread_id'><text id='public.logs.thread_id' x='371' y='215' onmouseover="hghl(['logs_fk_logs_threads_1','public.threads.id'])" onmouseout="uhghl(['logs_fk_logs_threads_1','public.threads.id'])">thread_id</text><title>thread_id
 integer
 reference to thread if its entity was used in the action</title></a>
 <text x='512' y='216' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.logs.thread_id'><use id='fk' x='516' y='204' xlink:href='#fk'/><title>References threads ( thread_id -&gt; id ) </title></a>
-  <a xlink:href='#public.logs_article_id'><text id='public.logs.article_id' x='371' y='231' onmouseover="hghl(['logs_fk_logs_articles_1','public.articles.id'])" onmouseout="uhghl(['logs_fk_logs_articles_1','public.articles.id'])">article_id</text><title>article_id
+  <use id='idx' x='354' y='220' xlink:href='#idx'><title>logs_article_id_idx ( article_id ) </title></use><a xlink:href='#public.logs_article_id'><text id='public.logs.article_id' x='371' y='231' onmouseover="hghl(['logs_fk_logs_articles_1','public.articles.id'])" onmouseout="uhghl(['logs_fk_logs_articles_1','public.articles.id'])">article_id</text><title>article_id
 integer
 reference to article_id if this entity was used in the action</title></a>
 <text x='512' y='232' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.logs.article_id'><use id='fk' x='516' y='220' xlink:href='#fk'/><title>References articles ( article_id -&gt; id ) </title></a>
-  <a xlink:href='#public.logs_comment_id'><text id='public.logs.comment_id' x='371' y='247' onmouseover="hghl(['logs_fk_logs_comments_1','public.comments.id'])" onmouseout="uhghl(['logs_fk_logs_comments_1','public.comments.id'])">comment_id</text><title>comment_id
+  <use id='idx' x='354' y='236' xlink:href='#idx'><title>logs_comment_id_idx ( comment_id ) </title></use><a xlink:href='#public.logs_comment_id'><text id='public.logs.comment_id' x='371' y='247' onmouseover="hghl(['logs_fk_logs_comments_1','public.comments.id'])" onmouseout="uhghl(['logs_fk_logs_comments_1','public.comments.id'])">comment_id</text><title>comment_id
 integer
 reference to comment_id if this entity was used in the action</title></a>
 <text x='512' y='248' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.logs.comment_id'><use id='fk' x='516' y='236' xlink:href='#fk'/><title>References comments ( comment_id -&gt; id ) </title></a>
-  <use id='nn' x='354' y='253' xlink:href='#nn'/><a xlink:href='#public.logs_metadata'><text id='public.logs.metadata' x='371' y='263'>metadata</text><title>metadata
+  <use id='nn' x='354' y='253' xlink:href='#nn'/><use id='idx' x='354' y='252' xlink:href='#idx'><title>logs_metadata_idx ( metadata ) </title></use><a xlink:href='#public.logs_metadata'><text id='public.logs.metadata' x='371' y='263'>metadata</text><title>metadata
 * jsonb
 additional fields for action that don't have strictly structure</title></a>
 <text x='512' y='264' text-anchor='end' class='colType'>jsonb</text>
@@ -652,11 +617,11 @@ name of tag</title></a>
 <rect class='entity' x='1024' y='424' width='128' height='28' style='fill:#224070'/>
 <a xlink:href='#public.tags_to_articles'><text x='1039' y='444' class='white'>tags_to_articles</text><title>Table public.tags_to_articles
 Mapping tags to articles.</title></a>
-  <use id='nn' x='1026' y='461' xlink:href='#nn'/><a xlink:href='#public.tags_to_articles_article_id'><text id='public.tags_to_articles.article_id' x='1043' y='471' onmouseover="hghl(['tags_to_articles_fk_tags_to_articles_articles_1','public.articles.id'])" onmouseout="uhghl(['tags_to_articles_fk_tags_to_articles_articles_1','public.articles.id'])">article_id</text><title>article_id
+  <use id='nn' x='1026' y='461' xlink:href='#nn'/><use id='idx' x='1026' y='460' xlink:href='#idx'><title>tags_to_articles_article_id_idx ( article_id ) </title></use><a xlink:href='#public.tags_to_articles_article_id'><text id='public.tags_to_articles.article_id' x='1043' y='471' onmouseover="hghl(['tags_to_articles_fk_tags_to_articles_articles_1','public.articles.id'])" onmouseout="uhghl(['tags_to_articles_fk_tags_to_articles_articles_1','public.articles.id'])">article_id</text><title>article_id
 * integer
 reference to article</title></a>
 <text x='1136' y='472' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.tags_to_articles.article_id'><use id='fk' x='1140' y='460' xlink:href='#fk'/><title>References articles ( article_id -&gt; id ) </title></a>
-  <use id='nn' x='1026' y='477' xlink:href='#nn'/><a xlink:href='#public.tags_to_articles_tags_id'><text id='public.tags_to_articles.tags_id' x='1043' y='487' onmouseover="hghl(['tags_to_articles_fk_tags_to_articles_tags_1','public.tags.id'])" onmouseout="uhghl(['tags_to_articles_fk_tags_to_articles_tags_1','public.tags.id'])">tags_id</text><title>tags_id
+  <use id='nn' x='1026' y='477' xlink:href='#nn'/><use id='idx' x='1026' y='476' xlink:href='#idx'><title>tags_to_articles_tags_id_idx ( tags_id ) </title></use><a xlink:href='#public.tags_to_articles_tags_id'><text id='public.tags_to_articles.tags_id' x='1043' y='487' onmouseover="hghl(['tags_to_articles_fk_tags_to_articles_tags_1','public.tags.id'])" onmouseout="uhghl(['tags_to_articles_fk_tags_to_articles_tags_1','public.tags.id'])">tags_id</text><title>tags_id
 * integer
 reference to tag</title></a>
 <text x='1136' y='488' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.tags_to_articles.tags_id'><use id='fk' x='1140' y='476' xlink:href='#fk'/><title>References tags ( tags_id -&gt; id ) </title></a>
@@ -678,11 +643,11 @@ name of article status</title></a>
 <rect class='entity' x='1056' y='104' width='128' height='28' style='fill:#224070'/>
 <a xlink:href='#public.article_likes'><text x='1082' y='124' class='white'>article_likes</text><title>Table public.article_likes
 Table for likes. Contains user and article reference. User can like (add row) and unlike (delete row) article.</title></a>
-  <use id='nn' x='1058' y='141' xlink:href='#nn'/><use id='unq' x='1058' y='140' xlink:href='#unq'><title>Unq article_likes_user_id_comment_id_unique ( user_id, article_id ) </title></use><a xlink:href='#public.article_likes_user_id'><text id='public.article_likes.user_id' x='1075' y='151' onmouseover="hghl(['article_likes_fk_likes_users_1','public.users.id'])" onmouseout="uhghl(['article_likes_fk_likes_users_1','public.users.id'])">user_id</text><title>user_id
+  <use id='nn' x='1058' y='141' xlink:href='#nn'/><use id='unq' x='1058' y='140' xlink:href='#unq'><title>Unq article_likes_user_id_comment_id_unique ( user_id, article_id ) article_likes_user_id_index ( user_id ) </title></use><a xlink:href='#public.article_likes_user_id'><text id='public.article_likes.user_id' x='1075' y='151' onmouseover="hghl(['article_likes_fk_likes_users_1','public.users.id'])" onmouseout="uhghl(['article_likes_fk_likes_users_1','public.users.id'])">user_id</text><title>user_id
 * integer
 user reference</title></a>
 <text x='1168' y='152' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.article_likes.user_id'><use id='fk' x='1172' y='140' xlink:href='#fk'/><title>References users ( user_id -&gt; id ) </title></a>
-  <use id='nn' x='1058' y='157' xlink:href='#nn'/><use id='unq' x='1058' y='156' xlink:href='#unq'><title>Unq article_likes_user_id_comment_id_unique ( user_id, article_id ) </title></use><a xlink:href='#public.article_likes_article_id'><text id='public.article_likes.article_id' x='1075' y='167' onmouseover="hghl(['article_likes_fk_likes_articles_1','public.articles.id'])" onmouseout="uhghl(['article_likes_fk_likes_articles_1','public.articles.id'])">article_id</text><title>article_id
+  <use id='nn' x='1058' y='157' xlink:href='#nn'/><use id='unq' x='1058' y='156' xlink:href='#unq'><title>Unq article_likes_user_id_comment_id_unique ( user_id, article_id ) article_likes_article_id_index ( article_id ) </title></use><a xlink:href='#public.article_likes_article_id'><text id='public.article_likes.article_id' x='1075' y='167' onmouseover="hghl(['article_likes_fk_likes_articles_1','public.articles.id'])" onmouseout="uhghl(['article_likes_fk_likes_articles_1','public.articles.id'])">article_id</text><title>article_id
 * integer</title></a>
 <text x='1168' y='168' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.article_likes.article_id'><use id='fk' x='1172' y='156' xlink:href='#fk'/><title>References articles ( article_id -&gt; id ) </title></a>
 
@@ -723,18 +688,18 @@ Chat-room with user and admin.</title></a>
 * serial</title></a>
 <text x='896' y='824' text-anchor='end' class='colType'>serial</text><a xlink:href='#public.threads.id'><use id='ref' x='900' y='812' xlink:href='#ref'/><title>Referred by logs ( thread_id -&gt; id ) 
 Referred by threads_messages ( thread_id -&gt; id ) </title></a>
-  <use id='nn' x='738' y='829' xlink:href='#nn'/><a xlink:href='#public.threads_created_at'><text id='public.threads.created_at' x='755' y='839'>created_at</text><title>created_at
+  <use id='nn' x='738' y='829' xlink:href='#nn'/><use id='idx' x='738' y='828' xlink:href='#idx'><title>threads_created_at_idx ( created_at ) </title></use><a xlink:href='#public.threads_created_at'><text id='public.threads.created_at' x='755' y='839'>created_at</text><title>created_at
 * timestamptz default now()
 date of creating</title></a>
 <text x='896' y='840' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='738' y='845' xlink:href='#nn'/><a xlink:href='#public.threads_priority_id'><text id='public.threads.priority_id' x='755' y='855' onmouseover="hghl(['threads_fk_threads_thread_priorities_1','public.thread_priorities.id'])" onmouseout="uhghl(['threads_fk_threads_thread_priorities_1','public.thread_priorities.id'])">priority_id</text><title>priority_id
 * integer
 reference to priority</title></a>
 <text x='896' y='856' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.threads.priority_id'><use id='fk' x='900' y='844' xlink:href='#fk'/><title>References thread_priorities ( priority_id -&gt; id ) </title></a>
-  <use id='nn' x='738' y='861' xlink:href='#nn'/><a xlink:href='#public.threads_user_id'><text id='public.threads.user_id' x='755' y='871' onmouseover="hghl(['threads_fk_threads_users_1','public.users.id'])" onmouseout="uhghl(['threads_fk_threads_users_1','public.users.id'])">user_id</text><title>user_id
+  <use id='nn' x='738' y='861' xlink:href='#nn'/><use id='idx' x='738' y='860' xlink:href='#idx'><title>threads_user_id_idx ( user_id ) </title></use><a xlink:href='#public.threads_user_id'><text id='public.threads.user_id' x='755' y='871' onmouseover="hghl(['threads_fk_threads_users_1','public.users.id'])" onmouseout="uhghl(['threads_fk_threads_users_1','public.users.id'])">user_id</text><title>user_id
 * integer
 reference to user</title></a>
 <text x='896' y='872' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.threads.user_id'><use id='fk' x='900' y='860' xlink:href='#fk'/><title>References users ( user_id -&gt; id ) </title></a>
-  <use id='nn' x='738' y='877' xlink:href='#nn'/><a xlink:href='#public.threads_admin_id'><text id='public.threads.admin_id' x='755' y='887' onmouseover="hghl(['threads_fk_threads_users_2','public.users.id'])" onmouseout="uhghl(['threads_fk_threads_users_2','public.users.id'])">admin_id</text><title>admin_id
+  <use id='nn' x='738' y='877' xlink:href='#nn'/><use id='idx' x='738' y='876' xlink:href='#idx'><title>threads_admin_id_idx ( admin_id ) </title></use><a xlink:href='#public.threads_admin_id'><text id='public.threads.admin_id' x='755' y='887' onmouseover="hghl(['threads_fk_threads_users_2','public.users.id'])" onmouseout="uhghl(['threads_fk_threads_users_2','public.users.id'])">admin_id</text><title>admin_id
 * integer
 reference to user with role admin</title></a>
 <text x='896' y='888' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.threads.admin_id'><use id='fk' x='900' y='876' xlink:href='#fk'/><title>References users ( admin_id -&gt; id ) </title></a>
@@ -761,11 +726,11 @@ kind of priority</title></a>
 Messages inside threads between users and admins.</title></a>
   <use id='nn' x='962' y='829' xlink:href='#nn'/><use id='pk' x='962' y='828' xlink:href='#pk'><title>Pk threads_messages_pkey ( id ) </title></use><a xlink:href='#public.threads_messages_id'><text id='public.threads_messages.id' x='979' y='839'>id</text><title>id
 * serial</title></a>
-<text x='1120' y='840' text-anchor='end' class='colType'>serial</text>  <use id='nn' x='962' y='845' xlink:href='#nn'/><a xlink:href='#public.threads_messages_thread_id'><text id='public.threads_messages.thread_id' x='979' y='855' onmouseover="hghl(['threads_messages_fk_threads_messages_threads_1','public.threads.id'])" onmouseout="uhghl(['threads_messages_fk_threads_messages_threads_1','public.threads.id'])">thread_id</text><title>thread_id
+<text x='1120' y='840' text-anchor='end' class='colType'>serial</text>  <use id='nn' x='962' y='845' xlink:href='#nn'/><use id='idx' x='962' y='844' xlink:href='#idx'><title>threads_messages_thread_id_idx ( thread_id ) </title></use><a xlink:href='#public.threads_messages_thread_id'><text id='public.threads_messages.thread_id' x='979' y='855' onmouseover="hghl(['threads_messages_fk_threads_messages_threads_1','public.threads.id'])" onmouseout="uhghl(['threads_messages_fk_threads_messages_threads_1','public.threads.id'])">thread_id</text><title>thread_id
 * integer
 reference to chat-room</title></a>
 <text x='1120' y='856' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.threads_messages.thread_id'><use id='fk' x='1124' y='844' xlink:href='#fk'/><title>References threads ( thread_id -&gt; id ) </title></a>
-  <use id='nn' x='962' y='861' xlink:href='#nn'/><a xlink:href='#public.threads_messages_created_at'><text id='public.threads_messages.created_at' x='979' y='871'>created_at</text><title>created_at
+  <use id='nn' x='962' y='861' xlink:href='#nn'/><use id='idx' x='962' y='860' xlink:href='#idx'><title>threads_messages_created_at_idx ( created_at ) </title></use><a xlink:href='#public.threads_messages_created_at'><text id='public.threads_messages.created_at' x='979' y='871'>created_at</text><title>created_at
 * timestamptz default now()
 date of creating</title></a>
 <text x='1120' y='872' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='962' y='877' xlink:href='#nn'/><a xlink:href='#public.threads_messages_updated_at'><text id='public.threads_messages.updated_at' x='979' y='887'>updated_at</text><title>updated_at
@@ -798,11 +763,11 @@ name of status</title></a>
 <rect class='entity' x='208' y='904' width='176' height='28' style='fill:#704E22'/>
 <a xlink:href='#public.user_to_role'><text x='257' y='924' class='white'>user_to_role</text><title>Table public.user_to_role
 Mapping user to role.</title></a>
-  <use id='nn' x='210' y='941' xlink:href='#nn'/><a xlink:href='#public.user_to_role_user_id'><text id='public.user_to_role.user_id' x='227' y='951' onmouseover="hghl(['user_to_role_fk_user_to_role_users_1','public.users.id'])" onmouseout="uhghl(['user_to_role_fk_user_to_role_users_1','public.users.id'])">user_id</text><title>user_id
+  <use id='nn' x='210' y='941' xlink:href='#nn'/><use id='unq' x='210' y='940' xlink:href='#unq'><title>Unq user_to_role_user_id_idx ( user_id, role_id ) </title></use><a xlink:href='#public.user_to_role_user_id'><text id='public.user_to_role.user_id' x='227' y='951' onmouseover="hghl(['user_to_role_fk_user_to_role_users_1','public.users.id'])" onmouseout="uhghl(['user_to_role_fk_user_to_role_users_1','public.users.id'])">user_id</text><title>user_id
 * integer
 reference to user</title></a>
 <text x='368' y='952' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.user_to_role.user_id'><use id='fk' x='372' y='940' xlink:href='#fk'/><title>References users ( user_id -&gt; id ) </title></a>
-  <use id='nn' x='210' y='957' xlink:href='#nn'/><a xlink:href='#public.user_to_role_role_id'><text id='public.user_to_role.role_id' x='227' y='967' onmouseover="hghl(['user_to_role_fk_user_to_role_roles_1','public.roles.id'])" onmouseout="uhghl(['user_to_role_fk_user_to_role_roles_1','public.roles.id'])">role_id</text><title>role_id
+  <use id='nn' x='210' y='957' xlink:href='#nn'/><use id='unq' x='210' y='956' xlink:href='#unq'><title>Unq user_to_role_user_id_idx ( user_id, role_id ) </title></use><a xlink:href='#public.user_to_role_role_id'><text id='public.user_to_role.role_id' x='227' y='967' onmouseover="hghl(['user_to_role_fk_user_to_role_roles_1','public.roles.id'])" onmouseout="uhghl(['user_to_role_fk_user_to_role_roles_1','public.roles.id'])">role_id</text><title>role_id
 * integer
 reference to role</title></a>
 <text x='368' y='968' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.user_to_role.role_id'><use id='fk' x='372' y='956' xlink:href='#fk'/><title>References roles ( role_id -&gt; id ) </title></a>
@@ -827,11 +792,11 @@ name of timezone ("Europe/Kiev")</title></a>
 <rect class='entity' x='96' y='488' width='144' height='28' style='fill:#2F7022'/>
 <a xlink:href='#public.followers'><text x='138' y='508' class='white'>followers</text><title>Table public.followers
 Realisation of ability for subscribing to another user activity (publish new articles).</title></a>
-  <use id='nn' x='98' y='525' xlink:href='#nn'/><a xlink:href='#public.followers_follower_id'><text id='public.followers.follower_id' x='115' y='535' onmouseover="hghl(['followers_fk_followers_users_1','public.users.id'])" onmouseout="uhghl(['followers_fk_followers_users_1','public.users.id'])">follower_id</text><title>follower_id
+  <use id='nn' x='98' y='525' xlink:href='#nn'/><use id='unq' x='98' y='524' xlink:href='#unq'><title>Unq followers_follower_id_author_id_uindex ( follower_id, author_id ) followers_follower_id_index ( follower_id ) </title></use><a xlink:href='#public.followers_follower_id'><text id='public.followers.follower_id' x='115' y='535' onmouseover="hghl(['followers_fk_followers_users_1','public.users.id'])" onmouseout="uhghl(['followers_fk_followers_users_1','public.users.id'])">follower_id</text><title>follower_id
 * integer
 reference to user that want to subscribe</title></a>
 <text x='224' y='536' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.followers.follower_id'><use id='fk' x='228' y='524' xlink:href='#fk'/><title>References users ( follower_id -&gt; id ) </title></a>
-  <use id='nn' x='98' y='541' xlink:href='#nn'/><a xlink:href='#public.followers_author_id'><text id='public.followers.author_id' x='115' y='551' onmouseover="hghl(['followers_fk_followers_users_2','public.users.id'])" onmouseout="uhghl(['followers_fk_followers_users_2','public.users.id'])">author_id</text><title>author_id
+  <use id='nn' x='98' y='541' xlink:href='#nn'/><use id='unq' x='98' y='540' xlink:href='#unq'><title>Unq followers_follower_id_author_id_uindex ( follower_id, author_id ) followers_author_id_index ( author_id ) </title></use><a xlink:href='#public.followers_author_id'><text id='public.followers.author_id' x='115' y='551' onmouseover="hghl(['followers_fk_followers_users_2','public.users.id'])" onmouseout="uhghl(['followers_fk_followers_users_2','public.users.id'])">author_id</text><title>author_id
 * integer
 publisher</title></a>
 <text x='224' y='552' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.followers.author_id'><use id='fk' x='228' y='540' xlink:href='#fk'/><title>References users ( author_id -&gt; id ) </title></a>
@@ -906,16 +871,16 @@ Referred by threads ( user_id -&gt; id )
 Referred by threads ( admin_id -&gt; id ) 
 Referred by threads_messages ( user_id -&gt; id ) 
 Referred by user_to_role ( user_id -&gt; id ) </title></a>
-  <use id='nn' x='50' y='93' xlink:href='#nn'/><a xlink:href='#public.users_created_at'><text id='public.users.created_at' x='67' y='103'>created_at</text><title>created_at
+  <use id='nn' x='50' y='93' xlink:href='#nn'/><use id='idx' x='50' y='92' xlink:href='#idx'><title>users_created_at_idx ( created_at ) </title></use><a xlink:href='#public.users_created_at'><text id='public.users.created_at' x='67' y='103'>created_at</text><title>created_at
 * timestamptz default now()
 date of create</title></a>
-<text x='208' y='104' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='50' y='109' xlink:href='#nn'/><a xlink:href='#public.users_updated_at'><text id='public.users.updated_at' x='67' y='119'>updated_at</text><title>updated_at
+<text x='208' y='104' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='50' y='109' xlink:href='#nn'/><use id='idx' x='50' y='108' xlink:href='#idx'><title>users_updated_at_idx ( updated_at ) </title></use><a xlink:href='#public.users_updated_at'><text id='public.users.updated_at' x='67' y='119'>updated_at</text><title>updated_at
 * timestamptz default now()
 date of last change</title></a>
 <text x='208' y='120' text-anchor='end' class='colType'>timestamptz</text>  <a xlink:href='#public.users_removed_at'><text id='public.users.removed_at' x='67' y='135'>removed_at</text><title>removed_at
 timestamptz
 date of remove or ban</title></a>
-<text x='208' y='136' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='50' y='141' xlink:href='#nn'/><a xlink:href='#public.users_email'><text id='public.users.email' x='67' y='151'>email</text><title>email
+<text x='208' y='136' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='50' y='141' xlink:href='#nn'/><use id='unq' x='50' y='140' xlink:href='#unq'><title>Unq users_email_idx ( email ) </title></use><a xlink:href='#public.users_email'><text id='public.users.email' x='67' y='151'>email</text><title>email
 * varchar(255)
 email of user that needs for registration</title></a>
 <text x='208' y='152' text-anchor='end' class='colType'>varchar(255)</text>  <a xlink:href='#public.users_phone'><text id='public.users.phone' x='67' y='167'>phone</text><title>phone
@@ -936,7 +901,7 @@ reference to language</title></a>
 * integer
 reference to user timezone</title></a>
 <text x='208' y='232' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.users.timezone_id'><use id='fk' x='212' y='220' xlink:href='#fk'/><title>References timezones ( timezone_id -&gt; id ) </title></a>
-  <use id='nn' x='50' y='237' xlink:href='#nn'/><a xlink:href='#public.users_nickname'><text id='public.users.nickname' x='67' y='247'>nickname</text><title>nickname
+  <use id='nn' x='50' y='237' xlink:href='#nn'/><use id='unq' x='50' y='236' xlink:href='#unq'><title>Unq users_nickname_idx ( nickname ) </title></use><a xlink:href='#public.users_nickname'><text id='public.users.nickname' x='67' y='247'>nickname</text><title>nickname
 * varchar(255)
 user nickname</title></a>
 <text x='208' y='248' text-anchor='end' class='colType'>varchar(255)</text>  <a xlink:href='#public.users_birthday'><text id='public.users.birthday' x='67' y='263'>birthday</text><title>birthday
@@ -961,34 +926,34 @@ Article entity.</title></a>
 Referred by comments ( article_id -&gt; id ) 
 Referred by logs ( article_id -&gt; id ) 
 Referred by tags_to_articles ( article_id -&gt; id ) </title></a>
-  <use id='nn' x='834' y='157' xlink:href='#nn'/><a xlink:href='#public.articles_created_at'><text id='public.articles.created_at' x='851' y='167'>created_at</text><title>created_at
+  <use id='nn' x='834' y='157' xlink:href='#nn'/><use id='idx' x='834' y='156' xlink:href='#idx'><title>articles_created_at_idx ( created_at ) </title></use><a xlink:href='#public.articles_created_at'><text id='public.articles.created_at' x='851' y='167'>created_at</text><title>created_at
 * timestamptz default now()
 date of creation</title></a>
-<text x='992' y='168' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='834' y='173' xlink:href='#nn'/><a xlink:href='#public.articles_updated_at'><text id='public.articles.updated_at' x='851' y='183'>updated_at</text><title>updated_at
+<text x='992' y='168' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='834' y='173' xlink:href='#nn'/><use id='idx' x='834' y='172' xlink:href='#idx'><title>articles_updated_at_idx ( updated_at ) </title></use><a xlink:href='#public.articles_updated_at'><text id='public.articles.updated_at' x='851' y='183'>updated_at</text><title>updated_at
 * timestamptz default now()
 date of last update</title></a>
-<text x='992' y='184' text-anchor='end' class='colType'>timestamptz</text>  <a xlink:href='#public.articles_removed_at'><text id='public.articles.removed_at' x='851' y='199'>removed_at</text><title>removed_at
+<text x='992' y='184' text-anchor='end' class='colType'>timestamptz</text>  <use id='idx' x='834' y='188' xlink:href='#idx'><title>articles_removed_at_idx ( removed_at ) </title></use><a xlink:href='#public.articles_removed_at'><text id='public.articles.removed_at' x='851' y='199'>removed_at</text><title>removed_at
 timestamptz
 date of removing article</title></a>
-<text x='992' y='200' text-anchor='end' class='colType'>timestamptz</text>  <a xlink:href='#public.articles_title'><text id='public.articles.title' x='851' y='215'>title</text><title>title
-varchar(1024)
+<text x='992' y='200' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='834' y='205' xlink:href='#nn'/><a xlink:href='#public.articles_title'><text id='public.articles.title' x='851' y='215'>title</text><title>title
+* varchar(1024)
 name of article</title></a>
-<text x='992' y='216' text-anchor='end' class='colType'>varchar(1024)</text>  <a xlink:href='#public.articles_content'><text id='public.articles.content' x='851' y='231'>content</text><title>content
-text
+<text x='992' y='216' text-anchor='end' class='colType'>varchar(1024)</text>  <use id='nn' x='834' y='221' xlink:href='#nn'/><a xlink:href='#public.articles_content'><text id='public.articles.content' x='851' y='231'>content</text><title>content
+* text
 content of article</title></a>
-<text x='992' y='232' text-anchor='end' class='colType'>text</text>  <use id='nn' x='834' y='237' xlink:href='#nn'/><a xlink:href='#public.articles_author_id'><text id='public.articles.author_id' x='851' y='247' onmouseover="hghl(['articles_fk_articles_users_1','public.users.id'])" onmouseout="uhghl(['articles_fk_articles_users_1','public.users.id'])">author_id</text><title>author_id
+<text x='992' y='232' text-anchor='end' class='colType'>text</text>  <use id='nn' x='834' y='237' xlink:href='#nn'/><use id='idx' x='834' y='236' xlink:href='#idx'><title>articles_author_id_idx ( author_id ) </title></use><a xlink:href='#public.articles_author_id'><text id='public.articles.author_id' x='851' y='247' onmouseover="hghl(['articles_fk_articles_users_1','public.users.id'])" onmouseout="uhghl(['articles_fk_articles_users_1','public.users.id'])">author_id</text><title>author_id
 * integer
 reference to author of article</title></a>
 <text x='992' y='248' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.articles.author_id'><use id='fk' x='996' y='236' xlink:href='#fk'/><title>References users ( author_id -&gt; id ) </title></a>
-  <a xlink:href='#public.articles_article_status_id'><text id='public.articles.article_status_id' x='851' y='263' onmouseover="hghl(['articles_fk_articles_article_statuses_1','public.article_statuses.id'])" onmouseout="uhghl(['articles_fk_articles_article_statuses_1','public.article_statuses.id'])">article_status_id</text><title>article_status_id
-integer
+  <use id='nn' x='834' y='253' xlink:href='#nn'/><use id='idx' x='834' y='252' xlink:href='#idx'><title>articles_article_status_id_idx ( article_status_id ) </title></use><a xlink:href='#public.articles_article_status_id'><text id='public.articles.article_status_id' x='851' y='263' onmouseover="hghl(['articles_fk_articles_article_statuses_1','public.article_statuses.id'])" onmouseout="uhghl(['articles_fk_articles_article_statuses_1','public.article_statuses.id'])">article_status_id</text><title>article_status_id
+* integer
 reference to article status</title></a>
 <text x='992' y='264' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.articles.article_status_id'><use id='fk' x='996' y='252' xlink:href='#fk'/><title>References article_statuses ( article_status_id -&gt; id ) </title></a>
-  <a xlink:href='#public.articles_language_id'><text id='public.articles.language_id' x='851' y='279' onmouseover="hghl(['articles_fk_articles_languages_1','public.languages.id'])" onmouseout="uhghl(['articles_fk_articles_languages_1','public.languages.id'])">language_id</text><title>language_id
-integer
+  <use id='nn' x='834' y='269' xlink:href='#nn'/><use id='idx' x='834' y='268' xlink:href='#idx'><title>articles_language_id_idx ( language_id ) </title></use><a xlink:href='#public.articles_language_id'><text id='public.articles.language_id' x='851' y='279' onmouseover="hghl(['articles_fk_articles_languages_1','public.languages.id'])" onmouseout="uhghl(['articles_fk_articles_languages_1','public.languages.id'])">language_id</text><title>language_id
+* integer
 reference to language</title></a>
 <text x='992' y='280' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.articles.language_id'><use id='fk' x='996' y='268' xlink:href='#fk'/><title>References languages ( language_id -&gt; id ) </title></a>
-  <a xlink:href='#public.articles_category_id'><text id='public.articles.category_id' x='851' y='295' onmouseover="hghl(['articles_fk_articles_categories_1','public.article_categories.id'])" onmouseout="uhghl(['articles_fk_articles_categories_1','public.article_categories.id'])">category_id</text><title>category_id
+  <use id='idx' x='834' y='284' xlink:href='#idx'><title>articles_category_id_idx ( category_id ) </title></use><a xlink:href='#public.articles_category_id'><text id='public.articles.category_id' x='851' y='295' onmouseover="hghl(['articles_fk_articles_categories_1','public.article_categories.id'])" onmouseout="uhghl(['articles_fk_articles_categories_1','public.article_categories.id'])">category_id</text><title>category_id
 integer
 regerenct to article category</title></a>
 <text x='992' y='296' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.articles.category_id'><use id='fk' x='996' y='284' xlink:href='#fk'/><title>References article_categories ( category_id -&gt; id ) </title></a>
@@ -996,6 +961,41 @@ regerenct to article category</title></a>
 varchar(255)
 link to the image</title></a>
 <text x='992' y='312' text-anchor='end' class='colType'>varchar(255)</text>
+<!-- == Table 'comments' == -->
+<rect class='entity' style='stroke:#308F1E' x='352' y='504' width='176' height='176' />
+<rect class='entity' x='352' y='504' width='176' height='28' style='fill:#2F7022'/>
+<a xlink:href='#public.comments'><text x='406' y='524' class='white'>comments</text><title>Table public.comments
+Comment entity. Can be relative on parent comment (needed for creating recursive tree of comments with answers).</title></a>
+  <use id='nn' x='354' y='541' xlink:href='#nn'/><use id='pk' x='354' y='540' xlink:href='#pk'><title>Pk comments_pkey ( id ) </title></use><a xlink:href='#public.comments_id'><text id='public.comments.id' x='371' y='551' onmouseover="hghl(['comment_likes_fk_comment_likes_comments_1','public.comment_likes.comment_id','comments_fk_comments_comments_1','public.comments.parent_id','logs_fk_logs_comments_1','public.logs.comment_id'])" onmouseout="uhghl(['comment_likes_fk_comment_likes_comments_1','public.comment_likes.comment_id','comments_fk_comments_comments_1','public.comments.parent_id','logs_fk_logs_comments_1','public.logs.comment_id'])">id</text><title>id
+* serial</title></a>
+<text x='512' y='552' text-anchor='end' class='colType'>serial</text><a xlink:href='#public.comments.id'><use id='ref' x='516' y='540' xlink:href='#ref'/><title>Referred by comment_likes ( comment_id -&gt; id ) 
+Referred by comments ( parent_id -&gt; id ) 
+Referred by logs ( comment_id -&gt; id ) </title></a>
+  <use id='nn' x='354' y='557' xlink:href='#nn'/><use id='idx' x='354' y='556' xlink:href='#idx'><title>comments_created_at_idx ( created_at ) </title></use><a xlink:href='#public.comments_created_at'><text id='public.comments.created_at' x='371' y='567'>created_at</text><title>created_at
+* timestamptz default now()
+date of creating comment</title></a>
+<text x='512' y='568' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='354' y='573' xlink:href='#nn'/><use id='idx' x='354' y='572' xlink:href='#idx'><title>comments_updated_at_idx ( updated_at ) </title></use><a xlink:href='#public.comments_updated_at'><text id='public.comments.updated_at' x='371' y='583'>updated_at</text><title>updated_at
+* timestamptz default now()
+date of last updating</title></a>
+<text x='512' y='584' text-anchor='end' class='colType'>timestamptz</text>  <use id='idx' x='354' y='588' xlink:href='#idx'><title>comments_removed_at_idx ( removed_at ) </title></use><a xlink:href='#public.comments_removed_at'><text id='public.comments.removed_at' x='371' y='599'>removed_at</text><title>removed_at
+timestamptz
+date of removing</title></a>
+<text x='512' y='600' text-anchor='end' class='colType'>timestamptz</text>  <use id='nn' x='354' y='605' xlink:href='#nn'/><use id='idx' x='354' y='604' xlink:href='#idx'><title>comments_author_id_idx ( author_id ) </title></use><a xlink:href='#public.comments_author_id'><text id='public.comments.author_id' x='371' y='615' onmouseover="hghl(['comments_fk_comments_users_1','public.users.id'])" onmouseout="uhghl(['comments_fk_comments_users_1','public.users.id'])">author_id</text><title>author_id
+* integer
+user that create comment</title></a>
+<text x='512' y='616' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comments.author_id'><use id='fk' x='516' y='604' xlink:href='#fk'/><title>References users ( author_id -&gt; id ) </title></a>
+  <use id='nn' x='354' y='621' xlink:href='#nn'/><use id='idx' x='354' y='620' xlink:href='#idx'><title>comments_article_id_idx ( article_id ) </title></use><a xlink:href='#public.comments_article_id'><text id='public.comments.article_id' x='371' y='631' onmouseover="hghl(['comments_fk_comments_articles_1','public.articles.id'])" onmouseout="uhghl(['comments_fk_comments_articles_1','public.articles.id'])">article_id</text><title>article_id
+* integer
+reference to article</title></a>
+<text x='512' y='632' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comments.article_id'><use id='fk' x='516' y='620' xlink:href='#fk'/><title>References articles ( article_id -&gt; id ) </title></a>
+  <use id='idx' x='354' y='636' xlink:href='#idx'><title>comments_parent_id_idx ( parent_id ) </title></use><a xlink:href='#public.comments_parent_id'><text id='public.comments.parent_id' x='371' y='647' onmouseover="hghl(['comments_fk_comments_comments_1','public.comments.id'])" onmouseout="uhghl(['comments_fk_comments_comments_1','public.comments.id'])">parent_id</text><title>parent_id
+integer
+reference to parent comment for recursive showing</title></a>
+<text x='512' y='648' text-anchor='end' class='colType'>integer</text><a xlink:href='#public.comments.parent_id'><use id='fk' x='516' y='636' xlink:href='#fk'/><title>References comments ( parent_id -&gt; id ) </title></a>
+  <a xlink:href='#public.comments_content'><text id='public.comments.content' x='371' y='663'>content</text><title>content
+text
+main content of comment</title></a>
+<text x='512' y='664' text-anchor='end' class='colType'>text</text>
 </g></svg></div>
 <div class='container'>
 
@@ -1079,6 +1079,14 @@ link to the image</title></a>
 		<td> ON user&#95;id&#44; article&#95;id</td>
 		<td>  </td>
 	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>article&#95;likes&#95;article&#95;id&#95;index</td>
+		<td> ON article&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>article&#95;likes&#95;user&#95;id&#95;index</td>
+		<td> ON user&#95;id</td>
+		<td>  </td>
+	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_likes_articles_1</td>
@@ -1136,55 +1144,55 @@ link to the image</title></a>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.articles_created_at'>created&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of creation </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.articles_updated_at'>updated&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of last update </td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.articles_removed_at'>removed&#95;at</a></td>
 		<td> timestamptz   </td>
 		<td> date of removing article </td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
+		<td>*</td>
 		<td><a name='public.articles_title'>title</a></td>
 		<td> varchar&#40; 1024 &#41;   </td>
 		<td> name of article </td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
+		<td>*</td>
 		<td><a name='public.articles_content'>content</a></td>
 		<td> text   </td>
 		<td> content of article </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.articles_author_id'>author&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to author of article </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.articles_article_status_id'>article&#95;status&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to article status </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.articles_language_id'>language&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to language </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.articles_category_id'>category&#95;id</a></td>
 		<td> integer   </td>
 		<td> regerenct to article category </td>
@@ -1198,6 +1206,34 @@ link to the image</title></a>
 <tr><th colspan='4'>Indexes</th></tr>
 	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>articles&#95;pkey</td>
 		<td> ON id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>articles&#95;article&#95;status&#95;id&#95;idx</td>
+		<td> ON article&#95;status&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>articles&#95;author&#95;id&#95;idx</td>
+		<td> ON author&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>articles&#95;category&#95;id&#95;idx</td>
+		<td> ON category&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>articles&#95;created&#95;at&#95;idx</td>
+		<td> ON created&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>articles&#95;language&#95;id&#95;idx</td>
+		<td> ON language&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>articles&#95;removed&#95;at&#95;idx</td>
+		<td> ON removed&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>articles&#95;updated&#95;at&#95;idx</td>
+		<td> ON updated&#95;at</td>
 		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
@@ -1223,7 +1259,7 @@ link to the image</title></a>
 	</tr>
 <tr><th colspan='4'>Triggers</th></tr>
 	<tr>
-		<td>&nbsp;</td><td> t_articles_upd </td><td>  </td><td> </td>
+		<td>&nbsp;</td><td> t_articles_upd </td><td> <pre>CREATE TRIGGER t&#95;articles&#95;upd BEFORE UPDATE ON public&#46;articles FOR EACH ROW EXECUTE PROCEDURE upd&#95;updated&#95;at&#40;&#41;</pre> </td><td> </td>
 	</tr>
 </tbody>
 </table></div></div>
@@ -1251,6 +1287,14 @@ link to the image</title></a>
 <tr><th colspan='4'>Indexes</th></tr>
 	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>comment&#95;likes&#95;user&#95;id&#95;comment&#95;id&#95;unique</td>
 		<td> ON user&#95;id&#44; comment&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comment&#95;likes&#95;comment&#95;id&#95;index</td>
+		<td> ON comment&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comment&#95;likes&#95;user&#95;id&#95;index</td>
+		<td> ON user&#95;id</td>
 		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
@@ -1282,37 +1326,37 @@ link to the image</title></a>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.comments_created_at'>created&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of creating comment </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.comments_updated_at'>updated&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of last updating </td>
 	</tr>
 	<tr>
-		<td>&nbsp;</td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.comments_removed_at'>removed&#95;at</a></td>
 		<td> timestamptz   </td>
 		<td> date of removing </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.comments_author_id'>author&#95;id</a></td>
 		<td> integer   </td>
 		<td> user that create comment </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.comments_article_id'>article&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to article </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.comments_parent_id'>parent&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to parent comment for recursive showing </td>
@@ -1326,6 +1370,30 @@ link to the image</title></a>
 <tr><th colspan='4'>Indexes</th></tr>
 	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>comments&#95;pkey</td>
 		<td> ON id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comments&#95;article&#95;id&#95;idx</td>
+		<td> ON article&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comments&#95;author&#95;id&#95;idx</td>
+		<td> ON author&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comments&#95;created&#95;at&#95;idx</td>
+		<td> ON created&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comments&#95;parent&#95;id&#95;idx</td>
+		<td> ON parent&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comments&#95;removed&#95;at&#95;idx</td>
+		<td> ON removed&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>comments&#95;updated&#95;at&#95;idx</td>
+		<td> ON updated&#95;at</td>
 		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
@@ -1346,7 +1414,7 @@ link to the image</title></a>
 	</tr>
 <tr><th colspan='4'>Triggers</th></tr>
 	<tr>
-		<td>&nbsp;</td><td> t_comments_upd </td><td>  </td><td> </td>
+		<td>&nbsp;</td><td> t_comments_upd </td><td> <pre>CREATE TRIGGER t&#95;comments&#95;upd BEFORE UPDATE ON public&#46;comments FOR EACH ROW EXECUTE PROCEDURE upd&#95;updated&#95;at&#40;&#41;</pre> </td><td> </td>
 	</tr>
 </tbody>
 </table></div></div>
@@ -1360,16 +1428,29 @@ link to the image</title></a>
 </thead>
 <tbody>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.followers_follower_id'>follower&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to user that want to subscribe </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.followers_author_id'>author&#95;id</a></td>
 		<td> integer   </td>
 		<td> publisher </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>followers&#95;follower&#95;id&#95;author&#95;id&#95;uindex</td>
+		<td> ON follower&#95;id&#44; author&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>followers&#95;author&#95;id&#95;index</td>
+		<td> ON author&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>followers&#95;follower&#95;id&#95;index</td>
+		<td> ON follower&#95;id</td>
+		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
@@ -1456,52 +1537,85 @@ link to the image</title></a>
 </thead>
 <tbody>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.logs_created_at'>created&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of creation event </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.logs_action_id'>action&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to log&#45;action </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.logs_user_id'>user&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to user that was envolved or that was used in the action </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.logs_admin_id'>admin&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to user with admin role that create action </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.logs_thread_id'>thread&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to thread if its entity was used in the action </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.logs_article_id'>article&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to article&#95;id if this entity was used in the action </td>
 	</tr>
 	<tr>
-		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.logs_comment_id'>comment&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to comment&#95;id if this entity was used in the action </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.logs_metadata'>metadata</a></td>
 		<td> jsonb   </td>
 		<td> additional fields for action that don&#39;t have strictly structure </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;action&#95;id&#95;idx</td>
+		<td> ON action&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;admin&#95;id&#95;idx</td>
+		<td> ON admin&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;article&#95;id&#95;idx</td>
+		<td> ON article&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;comment&#95;id&#95;idx</td>
+		<td> ON comment&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;created&#95;at&#95;idx</td>
+		<td> ON created&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;metadata&#95;idx</td>
+		<td> ON metadata</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;thread&#95;id&#95;idx</td>
+		<td> ON thread&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>logs&#95;user&#95;id&#95;idx</td>
+		<td> ON user&#95;id</td>
+		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
@@ -1664,16 +1778,25 @@ link to the image</title></a>
 </thead>
 <tbody>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.tags_to_articles_article_id'>article&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to article </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.tags_to_articles_tags_id'>tags&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to tag </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>tags&#95;to&#95;articles&#95;article&#95;id&#95;idx</td>
+		<td> ON article&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>tags&#95;to&#95;articles&#95;tags&#95;id&#95;idx</td>
+		<td> ON tags&#95;id</td>
+		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
@@ -1732,7 +1855,7 @@ link to the image</title></a>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.threads_created_at'>created&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of creating </td>
@@ -1744,13 +1867,13 @@ link to the image</title></a>
 		<td> reference to priority </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.threads_user_id'>user&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to user </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.threads_admin_id'>admin&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to user with role admin </td>
@@ -1764,6 +1887,18 @@ link to the image</title></a>
 <tr><th colspan='4'>Indexes</th></tr>
 	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>threads&#95;pkey</td>
 		<td> ON id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>threads&#95;admin&#95;id&#95;idx</td>
+		<td> ON admin&#95;id</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>threads&#95;created&#95;at&#95;idx</td>
+		<td> ON created&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>threads&#95;user&#95;id&#95;idx</td>
+		<td> ON user&#95;id</td>
 		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
@@ -1805,13 +1940,13 @@ link to the image</title></a>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.threads_messages_thread_id'>thread&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to chat&#45;room </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.threads_messages_created_at'>created&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of creating </td>
@@ -1845,6 +1980,14 @@ link to the image</title></a>
 		<td> ON id</td>
 		<td>  </td>
 	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>threads&#95;messages&#95;created&#95;at&#95;idx</td>
+		<td> ON created&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>threads&#95;messages&#95;thread&#95;id&#95;idx</td>
+		<td> ON thread&#95;id</td>
+		<td>  </td>
+	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_threads_messages_threads_1</td>
@@ -1858,7 +2001,7 @@ link to the image</title></a>
 	</tr>
 <tr><th colspan='4'>Triggers</th></tr>
 	<tr>
-		<td>&nbsp;</td><td> t_threads_messages_upd </td><td>  </td><td> </td>
+		<td>&nbsp;</td><td> t_threads_messages_upd </td><td> <pre>CREATE TRIGGER t&#95;threads&#95;messages&#95;upd BEFORE UPDATE ON public&#46;threads&#95;messages FOR EACH ROW EXECUTE PROCEDURE upd&#95;updated&#95;at&#40;&#41;</pre> </td><td> </td>
 	</tr>
 </tbody>
 </table></div></div>
@@ -1983,13 +2126,13 @@ link to the image</title></a>
 </thead>
 <tbody>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.user_to_role_user_id'>user&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to user </td>
 	</tr>
 	<tr>
-		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg><svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
 		<td><a name='public.user_to_role_role_id'>role&#95;id</a></td>
 		<td> integer   </td>
 		<td> reference to role </td>
@@ -1999,6 +2142,11 @@ link to the image</title></a>
 		<td><a name='public.user_to_role_created_at'>created&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of creation </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>user&#95;to&#95;role&#95;user&#95;id&#95;idx</td>
+		<td> ON user&#95;id&#44; role&#95;id</td>
+		<td>  </td>
 	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
@@ -2029,13 +2177,13 @@ link to the image</title></a>
 		<td>  </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.users_created_at'>created&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of create </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#idx'/></svg></td>
 		<td><a name='public.users_updated_at'>updated&#95;at</a></td>
 		<td> timestamptz   DEFAULT now() </td>
 		<td> date of last change </td>
@@ -2047,7 +2195,7 @@ link to the image</title></a>
 		<td> date of remove or ban </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg></td>
 		<td><a name='public.users_email'>email</a></td>
 		<td> varchar&#40; 255 &#41;   </td>
 		<td> email of user that needs for registration </td>
@@ -2083,7 +2231,7 @@ link to the image</title></a>
 		<td> reference to user timezone </td>
 	</tr>
 	<tr>
-		<td>*</td>
+		<td>*<svg width='14' height='14'><use xlink:href='#unq'/></svg></td>
 		<td><a name='public.users_nickname'>nickname</a></td>
 		<td> varchar&#40; 255 &#41;   </td>
 		<td> user nickname </td>
@@ -2111,6 +2259,22 @@ link to the image</title></a>
 		<td> ON id</td>
 		<td>  </td>
 	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>users&#95;email&#95;idx</td>
+		<td> ON email</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#unq'/></svg></td><td>users&#95;nickname&#95;idx</td>
+		<td> ON nickname</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>users&#95;created&#95;at&#95;idx</td>
+		<td> ON created&#95;at</td>
+		<td>  </td>
+	</tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#idx'/></svg></td><td>users&#95;updated&#95;at&#95;idx</td>
+		<td> ON updated&#95;at</td>
+		<td>  </td>
+	</tr>
 <tr><th colspan='4'>Foreign Keys</th></tr>
 	<tr>
 		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>fk_users_languages_1</td>
@@ -2134,7 +2298,7 @@ link to the image</title></a>
 	</tr>
 <tr><th colspan='4'>Triggers</th></tr>
 	<tr>
-		<td>&nbsp;</td><td> t_users_upd </td><td>  </td><td> </td>
+		<td>&nbsp;</td><td> t_users_upd </td><td> <pre>CREATE TRIGGER t&#95;users&#95;upd BEFORE UPDATE ON public&#46;users FOR EACH ROW EXECUTE PROCEDURE upd&#95;updated&#95;at&#40;&#41;</pre> </td><td> </td>
 	</tr>
 </tbody>
 </table></div></div>

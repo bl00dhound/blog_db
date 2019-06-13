@@ -8,5 +8,6 @@ services:
     ports:
       - "54321:5432"
     volumes:
-      - ./scripts/build.sql:/docker-entrypoint-initdb.d/build.sql
-      - ./scripts/fill.sql:/docker-entrypoint-initdb.d/fill.sql
+      - ./scripts/10_build.sql:/docker-entrypoint-initdb.d/10_build.sql
+      - ./scripts/20_fill.sql:/docker-entrypoint-initdb.d/20_fill.sql
+      - ./scripts/30_indexes.sql:/docker-entrypoint-initdb.d/30_indexes.sql
