@@ -81,6 +81,7 @@ COMMENT ON INDEX logs_metadata_idx IS 'index for searching inside JSON';
 /* Tags_to_articles */
 CREATE INDEX tags_to_articles_article_id_idx ON public.tags_to_articles (article_id);
 CREATE INDEX tags_to_articles_tags_id_idx ON public.tags_to_articles (tags_id);
+CREATE UNIQUE INDEX tags_to_articles_article_id_tags_id_unique_idx ON public.tags_to_articles (article_id,tags_id);
 
 COMMENT ON INDEX tags_to_articles_article_id_idx IS 'Index for fast filtering articles by tags';
 COMMENT ON INDEX tags_to_articles_tags_id_idx IS 'Index for fast filtering articles by tags';
@@ -95,11 +96,9 @@ COMMENT ON INDEX threads_user_id_idx IS 'Index for fast filtering by user_id';
 COMMENT ON INDEX threads_admin_id_idx IS 'Index for fast filtering by admin_id';
 
 /* Thread_messages */
-CREATE INDEX threads_messages_thread_id_idx ON public.threads_messages (thread_id);
-CREATE INDEX threads_messages_created_at_idx ON public.threads_messages (created_at);
+CREATE INDEX threads_messages_thread_id_created_at_ids ON public.threads_messages (thread_id,created_at);
 
-COMMENT ON INDEX threads_messages_thread_id_idx IS 'Index for filtering by thread and viewing in chat-room';
-COMMENT ON INDEX threads_messages_created_at_idx IS 'Index for fast ordering messages by date of creation';
+COMMENT ON INDEX threads_messages_thread_id_created_at_ids IS 'Index for fast ordering messages by date and thread_id of creation';
 
 /* User_to_role */
 CREATE UNIQUE INDEX user_to_role_user_id_idx ON public.user_to_role (user_id,role_id);
