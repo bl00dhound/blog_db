@@ -8,6 +8,7 @@ services:
     ports:
       - "54321:5432"
     volumes:
+      - ./HW6/logs_dump.csv:/docker-entrypoint-initdb.d/logs_dump.csv
       - ./scripts/10_build.sql:/docker-entrypoint-initdb.d/10_build.sql
-      - ./scripts/20_fill.sql:/docker-entrypoint-initdb.d/20_fill.sql
-      - ./scripts/30_indexes.sql:/docker-entrypoint-initdb.d/30_indexes.sql
+      - ./scripts/20_indexes.sql:/docker-entrypoint-initdb.d/20_indexes.sql
+      - ./scripts/30_fill.sql:/docker-entrypoint-initdb.d/30_fill.sql
