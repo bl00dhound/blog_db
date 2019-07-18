@@ -100,7 +100,7 @@ with grouping_by_actor_and_film as (
 select actor_id,
       actor_name,
       films::json #> '{0,film_id}' as film_id,
-      films::json #> '{0,film_title}' as film_id,
+      films::json #> '{0,film_title}' as film_title,
       last_date as rental_date
 from grouping_by_actor
 
